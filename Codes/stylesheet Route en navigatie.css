@@ -23,6 +23,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #edeae7;
+  text-align: center ;
 }
 
 li a {
@@ -30,7 +31,6 @@ li a {
 	display: block;
 	padding: 14px 16px;
 	text-decoration: none;
-	float: left ;
 	color: #256286;
 	font-family: 'Comic Sans MS';
 	
