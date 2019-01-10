@@ -23,7 +23,10 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #edeae7;
+<<<<<<< HEAD
   text-align: center ;
+=======
+>>>>>>> 64ba4645e03685785599504bbf8cd67e0e6a2daf
 }
 
 li a {
@@ -31,6 +34,10 @@ li a {
 	display: block;
 	padding: 14px 16px;
 	text-decoration: none;
+<<<<<<< HEAD
+=======
+	float: left ;
+>>>>>>> 64ba4645e03685785599504bbf8cd67e0e6a2daf
 	color: #256286;
 	font-family: 'Comic Sans MS';
 	
