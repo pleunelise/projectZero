@@ -42,9 +42,14 @@ li a {
 	padding: 14px 16px;
 	text-decoration: none;
   text-align: center;
+	float: center;
 	color: white;
 
 
+}
+
+h2{
+ text-align: center;
 }
 
 li a:hover:not(.active) {
@@ -53,7 +58,8 @@ li a:hover:not(.active) {
 }
 
 p{
-	border-left: 6px solid #4bcde1;
+	border-top: 6px solid #4bcde1;
+	float: left;
 
 }
 .active {
@@ -63,19 +69,18 @@ p{
 
 .container {
   position: relative;
-	float: center;
+	width: auto;
 	font-family: sans-serif;
 }
 
 /* Bottom right text */
 .text-block {
-
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-	font-family: sans-serif;
+ position: absolute; /* Position the background text */
+ top: 0; /* At the bottom. Use top:0 to append it to the top */
+ background: rgb(0, 0, 0); /* Fallback color */
+ background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+ color: #f1f1f1; /* Grey text */
+ width: 100%; /* Full width */
+ padding: 20px; /* Some padding */
+ font-family: sans-serif;
 }
