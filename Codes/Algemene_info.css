@@ -113,4 +113,21 @@ border-style: dotted;
 float: right;
 }
 
+footer{
+	background-color: #B59B71;
+}
+footer h3 {
+	text-align: center;
+}
+footer p{
+	text-align: center;
+}
 
+.dagen{
+	text-align: left;
+	width: 50%;
+}
+
+.maps{
+	float:left;
+}
