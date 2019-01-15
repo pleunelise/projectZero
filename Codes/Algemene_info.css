@@ -1,11 +1,11 @@
 body{
-	background-color: #D1C5AB;
+background-color: #d6c1a0;
 }
 
 iframe{
-	width: 100;
+width: 100;
   border-radius: 8px;
-	length:100;
+length:100;
 
 }
 
@@ -18,10 +18,10 @@ img
 }
 
 ul {
-  padding: 0;
+
   margin:0;
   overflow: hidden;
-  background-color: #333;
+width: 100%;
   list-style-type: none;
   background-color: #4bcde1;
 
@@ -38,13 +38,22 @@ li {
 
 li a {
 
-	display: inline-block;
-	padding: 14px 16px;
-	text-decoration: none;
+display: inline-block;
+padding: 14px 16px;
+text-decoration: none;
   text-align: center;
-	color: white;
+float: center;
+color: white;
 
 
+}
+
+
+
+h2{
+ text-align: center;
+ font-family: Courier ;
+ font-size: 40px;
 }
 
 li a:hover:not(.active) {
@@ -52,9 +61,9 @@ li a:hover:not(.active) {
 
 }
 
-p {
+p3{
+border-top: 6px solid #4bcde1;
 float: left;
-font-family: arial
 
 }
 .active {
@@ -64,17 +73,44 @@ font-family: arial
 
 .container {
   position: relative;
-	float: center;
+width: auto;
+font-family: sans-serif;
 }
 
 /* Bottom right text */
 .text-block {
-
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+ position: absolute; /* Position the background text */
+ top: 0; /* At the bottom. Use top:0 to append it to the top */
+ background: rgb(0, 0, 0); /* Fallback color */
+ background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+ color: #f1f1f1; /* Grey text */
+ width: 100%; /* Full width */
+ padding: 20px; /* Some padding */
+ font-family: sans-serif;
 }
+
+.split {
+
+  width: 50%;
+  z-index: 1;
+  bottom: 0;
+float: left;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+
+}
+
+.right {
+  right: 0;
+width: 30%;
+  bottom: 10px;
+  border: 3px solid black;
+border-style: dotted;
+float: right;
+}
+
+
