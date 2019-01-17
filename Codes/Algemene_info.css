@@ -9,23 +9,20 @@ length:100;
 
 }
 
-img
-{
+img{
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
   height: 550px;
+  filter: blur(5px);
 }
 
 ul {
 
   margin:0;
   overflow: hidden;
-<<<<<<< HEAD:Codes/Algemene_info.css
 width: 100%;
-=======
 
->>>>>>> 70533b7ac7bb6e099e71ddd335126007ab5d8e94:Codes/Algemene_info.css~682d8819cbe8896b54a3d9318f591e7df4c76cb2
   list-style-type: none;
   background-color: #4bcde1;
 
@@ -65,15 +62,11 @@ li a:hover:not(.active) {
 
 }
 
-<<<<<<< HEAD:Codes/Algemene_info.css
 p3{
 border-top: 6px solid #4bcde1;
 float: left;
-=======
 p{
 	border-left: 6px solid #4bcde1;
->>>>>>> 70533b7ac7bb6e099e71ddd335126007ab5d8e94:Codes/Algemene_info.css~682d8819cbe8896b54a3d9318f591e7df4c76cb2
-
 }
 .active {
   background-color:  #14a4e4;
@@ -81,14 +74,13 @@ p{
 }
 
 .container {
-  position: relative;
-<<<<<<< HEAD:Codes/Algemene_info.css
-width: auto;
-font-family: sans-serif;
-=======
+	position: relative;
+	width: auto;
+	font-family: sans-serif;
 	float: center;
 	font-family: sans-serif;
->>>>>>> 70533b7ac7bb6e099e71ddd335126007ab5d8e94:Codes/Algemene_info.css~682d8819cbe8896b54a3d9318f591e7df4c76cb2
+	text-align: center;
+	color: white;
 }
 
 /* Bottom right text */
@@ -113,7 +105,6 @@ float: left;
   padding-top: 20px;
 }
 
-<<<<<<< HEAD:Codes/Algemene_info.css
 .left {
   left: 0;
 
@@ -130,7 +121,6 @@ float: right;
 
 footer{
 	background-color: #B59B71;
-=======
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -139,7 +129,6 @@ footer{
   padding-left: 20px;
   padding-right: 20px;
 	font-family: sans-serif;
->>>>>>> 70533b7ac7bb6e099e71ddd335126007ab5d8e94:Codes/Algemene_info.css~682d8819cbe8896b54a3d9318f591e7df4c76cb2
 }
 footer h3 {
 	text-align: center;
@@ -155,4 +144,11 @@ footer p{
 
 .maps{
 	float:left;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
