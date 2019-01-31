@@ -1,27 +1,36 @@
 body{
+<<<<<<< HEAD
 	background-color: #d6c1a0;
+=======
+background-color: #d6c1a0;
+>>>>>>> 146321419ac3a20c2c83e4f1d684c9242aae4e74
 }
 
 iframe{
-	width: 100;
+width: 100;
   border-radius: 8px;
-	length:100;
+length:100;
 
 }
 
-img
-{
+img{
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
   height: 550px;
+  filter: blur(5px);
 }
 
 ul {
 
   margin:0;
   overflow: hidden;
+<<<<<<< HEAD
 	width: 100%;
+=======
+width: 100%;
+
+>>>>>>> 146321419ac3a20c2c83e4f1d684c9242aae4e74
   list-style-type: none;
   background-color: #4bcde1;
 
@@ -38,12 +47,17 @@ li {
 
 li a {
 
-	display: inline-block;
-	padding: 14px 16px;
-	text-decoration: none;
+display: inline-block;
+padding: 14px 16px;
+text-decoration: none;
   text-align: center;
+<<<<<<< HEAD
 	float: center;
 	color: white;
+=======
+float: center;
+color: white;
+>>>>>>> 146321419ac3a20c2c83e4f1d684c9242aae4e74
 
 
 }
@@ -62,9 +76,16 @@ li a:hover:not(.active) {
 }
 
 p3{
+<<<<<<< HEAD
 	border-top: 6px solid #4bcde1;
 	float: left;
 
+=======
+border-top: 6px solid #4bcde1;
+float: left;
+p{
+	border-left: 6px solid #4bcde1;
+>>>>>>> 146321419ac3a20c2c83e4f1d684c9242aae4e74
 }
 .active {
   background-color:  #14a4e4;
@@ -72,9 +93,18 @@ p3{
 }
 
 .container {
+<<<<<<< HEAD
   position: relative;
 	width: auto;
+=======
+	position: relative;
+	width: auto;
 	font-family: sans-serif;
+	float: center;
+>>>>>>> 146321419ac3a20c2c83e4f1d684c9242aae4e74
+	font-family: sans-serif;
+	text-align: center;
+	color: white;
 }
 
 /* Bottom right text */
@@ -88,6 +118,7 @@ p3{
  padding: 20px; /* Some padding */
  font-family: sans-serif;
 }
+<<<<<<< HEAD
 
 .split {
 
@@ -102,13 +133,71 @@ p3{
 .left {
   left: 0;
 
+=======
+
+.split {
+
+  width: 50%;
+  z-index: 1;
+  bottom: 0;
+float: left;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+
+>>>>>>> 146321419ac3a20c2c83e4f1d684c9242aae4e74
 }
 
 .right {
   right: 0;
+<<<<<<< HEAD
 	width: 30%;
   bottom: 10px;
   border: 3px solid black;
 	border-style: dotted;
 	float: right;
+=======
+width: 30%;
+  bottom: 10px;
+  border: 3px solid black;
+border-style: dotted;
+float: right;
+}
+
+footer{
+	background-color: #B59B71;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+	font-family: sans-serif;
+>>>>>>> 146321419ac3a20c2c83e4f1d684c9242aae4e74
+}
+footer h3 {
+	text-align: center;
+}
+footer p{
+	text-align: center;
+}
+
+.dagen{
+	text-align: left;
+	width: 50%;
+}
+
+.maps{
+	float:left;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
