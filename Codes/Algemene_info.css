@@ -201,3 +201,33 @@ footer p{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+#orange {
+  background-color: #ffcc99;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+#orange:hover {
+  background-color: #ff8000;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
+
+#yellow {
+  background-color: #ffff66;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  display: inline-block;
+}
+
+#yellow:hover {
+  background-color: #ffff00;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+}
