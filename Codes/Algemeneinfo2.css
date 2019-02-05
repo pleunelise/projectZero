@@ -40,10 +40,9 @@ color:white;
 font-family: 'Quicksand', sans-serif;
 text-transform: uppercase;
 text-align: center;
-padding-top:530px;
-font-size: 14px;
+/* padding-top:530px; */
 font-weight: bold;
-bottom:860px;
+bottom: 0;
 
 
 
@@ -93,6 +92,7 @@ ul li a:hover, ul li a:active {
   padding-left:40px;
   width: 900px;
   font-family: 'Quicksand', sans-serif;
+  text-transform: lowercase;
   font-size: 14px;
   color: white;
 
@@ -254,8 +254,8 @@ length:100;
 .plaatje_2{
 top:0;
 float: right;
-width: 77%;
-height: auto;
+width: 76%;
+height: 500px;
 
 
 }
@@ -264,7 +264,7 @@ height: auto;
 filter:grayscale(5);
 top:0;
 float: right;
-width: 78%;
+width: 77%;
 height: auto;
 
 
@@ -443,7 +443,7 @@ p6{
 
 .dots{
   width: 200%;
-  float: center;
+  float: right;
   bottom: 0;
 }
 
@@ -453,4 +453,23 @@ p7{
 
 tekst_1{
   width: 100%;
+}
+/* Position text in the middle of the page/image */
+
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
 }
